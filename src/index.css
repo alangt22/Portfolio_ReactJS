@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #424242;
+  margin: 0; /* Certifique-se de que não haja margem padrão que possa afetar o layout */
+}
+
+.scroll-mt-64 {
+  scroll-margin-top: 5rem; 
+}
+
+.scroll-mt-60 {
+  scroll-margin-top: 8rem; 
+}
+
+.skill-item {
+  opacity: 0;
+  transform: translateY(20px); /* Ajustar conforme necessário */
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.skill-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@keyframes blink {
+  0% { border-right-color: rgba(0, 0, 0, 0.75); }
+  100% { border-right-color: transparent; }
+}
+
+.typing-effect {
+  display: inline;
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes border-animation {
+  0%, 50%, 100% { border-color: #fff; }
+  25%, 75% { border-color: blue; }
+}
+
+.animated-border {
+  border: 4px solid;
+  animation: border-animation 4s infinite;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes slideInScale {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.card-animation {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.card-animation.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+.icon-hover {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon-hover:hover {
+  animation: pulse 1s infinite;
+}
+
+.card-shadow {
+  box-shadow: 0 24px 22px rgba(0, 0, 0, 0.8); /* Ajuste a opacidade da sombra para suavizar o efeito */
+}
+
+@media (max-width: 450px) {
+  body {
+    width: 100%; /* Ajuste para 100% para garantir que o corpo se ajuste corretamente em telas pequenas */
+    overflow-x: hidden; /* Evite rolagem horizontal */
+  }
+}

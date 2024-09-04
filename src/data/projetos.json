@@ -1,0 +1,84 @@
+[
+  {
+    "title": "PARTY TIME",
+    "imageSrc": "../assets/projects/party.png",
+    "description": "Projeto Full-stack para organização de festas",
+    "skills": ["React","JavaScript","Node","mongoDB"],
+    "demo": "https://partytime-curso.netlify.app/",
+    "source": "https://github.com/alangt22/PARTY_TIME-FRONTEND"
+  },
+  {
+    "title": "MEMORIES",
+    "imageSrc": "../assets/projects/memorias.png",
+    "description": "Projeto Full-stack para gerenciar memorias",
+    "skills": ["React","JavaScript","Node","mongoDB"],
+    "demo": "https://memories-curso.netlify.app/",
+    "source": "https://github.com/alangt22/MEMORIES_FRONTEND"
+  },
+  {
+    "title": "QUIZ PROGRAMAÇÃO",
+    "imageSrc": "../assets/projects/quiz.png",
+    "description": "Um Quiz De programação",
+    "skills": ["React","JavaScript","CSS"],
+    "demo": "https://quiz-curso.netlify.app/",
+    "source": "https://github.com/alangt22/quiz_react-Curso"
+  },
+  {
+    "title": "DEV BURGER",
+    "imageSrc": "../assets/projects/dev bg.png",
+    "description": "Cardapio Web Hamburgueria",
+    "skills": ["HTML","JavaScript","Tailwind"],
+    "demo": "https://alnburguer-2.netlify.app/",
+    "source": "https://github.com/alangt22/cardapio-2"
+  },
+  {
+    "title": "FINANÇAS",
+    "imageSrc": "../assets/projects/financeiro.png",
+    "description": "App Web para controle financeiro",
+    "skills": ["React","JavaScript"],
+    "demo": "https://alnfinances.netlify.app",
+    "source": "https://github.com/alangt22/Todo-Curso"
+  },  
+  {
+    "title": "TODO LIST AVANÇADO",
+    "imageSrc": "../assets/projects/Todo.png",
+    "description": "Todo List Avançado com JS",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://todoavn-curso.netlify.app/",
+    "source": "https://github.com/alangt22/financeiro"
+  },  
+  {
+    "title": "BARBER DEV",
+    "imageSrc": "../assets/projects/barber.JPG",
+    "description": "Landing Page Com links de contatos",
+    "skills": ["HTML","Sass","JavaScript"],
+    "demo": "https://barbeariadev.netlify.app/",
+    "source": "https://github.com/alangt22/Barbearia"
+  },
+  {
+    "title": "BUSCADOR DE CEP",
+    "imageSrc": "../assets/projects/cep.png",
+    "description": "Buscador de CEP Consumindo API",
+    "skills": ["HTML","CSS","JavaScript"],
+    "demo": "https://buscador-cep-aln.netlify.app/",
+    "source": "https://github.com/alangt22/BUSCADOR_CEP_JS"
+  },
+  {
+    "title": "CALCULO DE IMC",
+    "imageSrc": "../assets/projects/IMC.png",
+    "description": "Calculadora de IMC",
+    "skills": ["React","CSS","JavaScript"],
+    "demo": "https://calc-imc-react-curso.netlify.app/",
+    "source": "https://github.com/alangt22/Calc_imc_REACT"
+  },
+  {
+    "title": "TODO LIST DJANGO",
+    "imageSrc": "../assets/projects/listaTarefas.JPG",
+    "description": "Lista de Tarefas Com Django",
+    "skills": ["HTML","Python"],
+    "demo": "http://alannunes22.pythonanywhere.com/",
+    "source": "https://github.com/alangt22/ListaTarefas"
+  }
+
+]
+
