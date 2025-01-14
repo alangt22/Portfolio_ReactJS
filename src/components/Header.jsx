@@ -47,7 +47,7 @@ const Header = () => {
             </button>
             <button 
               className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
-              <a href="https://drive.google.com/file/d/1jNZ0kqJyoweke--Ryl7KWXXaPDAE6IJy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
+              <a href="https://drive.google.com/file/d/19v6aTomB5w3JbHGVEkE0TA5bo-TVkvKl/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
             </button>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Header = () => {
                       <a className='text-4xl icon-hover' href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faWhatsapp} />
                       </a>
-                      <a className='text-4xl icon-hover' href="http://www.linkedin.com/in/alan-nunes-7b3440273" target="_blank" rel="noopener noreferrer">
+                      <a className='text-4xl icon-hover' href="http://www.linkedin.com/in/alannunes22" target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faLinkedin} />
                       </a>
                       <a className='text-4xl icon-hover' href="https://github.com/alangt22" target="_blank" rel="noopener noreferrer">
