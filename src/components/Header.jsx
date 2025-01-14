@@ -47,7 +47,7 @@ const Header = () => {
             </button>
             <button 
               className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
-              <a href="https://drive.google.com/file/d/19v6aTomB5w3JbHGVEkE0TA5bo-TVkvKl/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
+              <a href="https://drive.google.com/file/d/1ODWS1afSRCSSIuA5s-bFqhHC2KCN-Dwi/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
             </button>
           </div>
         </div>
