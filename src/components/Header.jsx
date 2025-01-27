@@ -69,7 +69,7 @@ const Header = () => {
                       </a>
               </div>
               <span className='flex text-center  mr-32 sm:mr-2 justify-center font-bold text-custom2 mt-2'>
-                      alansilva2896@gmail.com
+                      <a href="#contatos" className='hover:text-custom7'>alansilva2896@gmail.com</a>
               </span>
           
         </div>
