@@ -6,6 +6,30 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh; 
+}
+
+.spinner {
+  border: 8px solid #f3f3f3; 
+  border-top: 8px solid #4255e2; 
+  border-radius: 50%; 
+  width: 30px; 
+  height: 30px; 
+  animation: spin 2s linear infinite; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
 body {
   margin: 0;
   height: 100vh; 
@@ -62,7 +86,7 @@ body::before {
 
 .skill-item {
   opacity: 0;
-  transform: translateY(20px); /* Ajustar conforme necessário */
+  transform: translateY(20px); 
   transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
 }
 

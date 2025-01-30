@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mrbeplgg");
+  const [isSubmitting, setIsSubmitting] = useState(false); 
+
+  const handleFormSubmit = async (e) => {
+    setIsSubmitting(true); 
+    await handleSubmit(e); 
+    setIsSubmitting(false); 
+  };
 
   if (state.succeeded) {
     return (
@@ -19,7 +26,7 @@ function ContactForm() {
       <h2 className="text-3xl text-center font-semibold text-gray-700 mb-4">Entre em contato</h2>
       <p className="text-center text-gray-600 mb-6">Sua mensagem será enviada para <strong className='text-custom2'>alansilva2896@gmail.com</strong></p>
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleFormSubmit} className="space-y-4">
         <div className="mb-4">
           <label htmlFor="email" className="block text-xl text-gray-700">E-mail</label>
           <input
@@ -62,9 +69,15 @@ function ContactForm() {
           <button
             type="submit"
             className="w-full py-3 bg-custom7 opacity-40 hover:opacity-100 text-white font-bold rounded-lg hover:bg-blue-600 disabled:opacity-50"
-            disabled={state.submitting}
+            disabled={state.submitting || isSubmitting} 
           >
-            Enviar
+            {isSubmitting ? (
+              <div className="loader">
+                <div className="spinner"></div> 
+              </div>
+            ) : (
+              "Enviar"
+            )}
           </button>
         </div>
       </form>
