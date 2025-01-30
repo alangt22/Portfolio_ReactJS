@@ -40,7 +40,7 @@ const Skills = ({ triggerAnimation }) => {
   }, [triggerAnimation, isVisible]);
 
   return (
-    <section className='flex items-center justify-center min-h-screen mb-60 '>
+    <section id='fundo' className='flex items-center justify-center min-h-screen mb-60 '>
       <div id='skills' className='w-[850px] sm:w-[310px] max-w-screen-lg px-4 sm:px-2 scroll-mt-36 sm:scroll-mt-36'>
         <div className='bg-custom-gradient w-full h-auto rounded-lg p-8 sm:py-6'>
           <h2 className='text-5xl sm:text-3xl text-center font-extrabold mb-10 sm:mb-6 text-custom2'>SKILLS</h2>

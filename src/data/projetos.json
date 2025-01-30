@@ -1,5 +1,13 @@
 [
   {
+    "title": "GET A PET",
+    "imageSrc": "../assets/projects/get a pet.png",
+    "description": "Sistema para adoção de Pets",
+    "skills": ["React","Node", "JavaScript","mongoDB"],
+    "demo": "https://get-a-pet-aln.netlify.app/",
+    "source": "https://github.com/alangt22/Get_a_Pet---FrontEnd"
+  },
+  {
     "title": "PARTY TIME",
     "imageSrc": "../assets/projects/party.png",
     "description": "Projeto Full-stack para organização de festas",
@@ -70,15 +78,6 @@
     "skills": ["React","CSS","JavaScript"],
     "demo": "https://calc-imc-react-curso.netlify.app/",
     "source": "https://github.com/alangt22/Calc_imc_REACT"
-  },
-  {
-    "title": "TODO LIST DJANGO",
-    "imageSrc": "../assets/projects/listaTarefas.JPG",
-    "description": "Lista de Tarefas Com Django",
-    "skills": ["HTML","Python"],
-    "demo": "http://alannunes22.pythonanywhere.com/",
-    "source": "https://github.com/alangt22/ListaTarefas"
   }
-
 ]
 

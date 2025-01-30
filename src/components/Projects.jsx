@@ -38,10 +38,10 @@ const Projects = () => {
       {projetos.map((projeto, index) => (
         <div
           key={index}
-          ref={el => (projectsRef.current[index] = el)} // Associa a referência do card
+          ref={el => (projectsRef.current[index] = el)} 
           data-index={index}
-          className={`w-80 sm:w-[350px] h-96 sm:h-[500px] sm:mr-0 sm:ml-2 bg-custom-gradient card-shadow-2xl rounded-lg overflow-hidden card-animation ${visibleItems.includes(String(index)) ? 'visible' : ''} card-shadow`}
-          style={{ animationDelay: `${index * 0.3}s` }} // Define atraso escalonado para animação
+          className={`w-80 sm:w-[350px] h-96 sm:h-[500px] sm:mr-0 sm:ml-2 bg-custom-gradient card-shadow-2xl rounded-lg  overflow-hidden card-animation ${visibleItems.includes(String(index)) ? 'visible' : ''} card-shadow`}
+          style={{ animationDelay: `${index * 0.3}s` }} 
         >
           <img
             src={projeto.imageSrc}

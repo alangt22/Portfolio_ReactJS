@@ -38,6 +38,18 @@
     {
       "title": "mongoDB",
       "imageSrc": "../assets/skills/mongodb.svg"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "../assets/skills/mysql.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "../assets/skills/git.png"
+    },
+    {
+      "title": "GitHub",
+      "imageSrc": "../assets/skills/github.png"
     }
   ]
   

@@ -15,10 +15,10 @@ module.exports = {
       
     },
     colors: {
-      custom1: '#424242',
+      custom1: '#242424',
       custom2: '#FFFFFF', 
       custom3: '#F5F5F5', 
-      custom4: '#424242', 
+      custom4: '#242424', 
       custom5: "#E3F2FD",
       custom6: "#000000",
       custom7: "#007BFF",

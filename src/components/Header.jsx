@@ -29,12 +29,12 @@ const Header = () => {
   }, [index, text, displayedText]);
 
   return (
-    <section className='relative flex flex-col items-center p-4 mt-12 sm:mt-2 mb-20 overflow-x-hidden'>
-      <div id="home" className='flex justify-between sm:flex sm:flex-col mb-20  mt-20 sm:mt-0 items-center w-full max-w-screen-sm scroll-mt-60'>
+    <section className='relative flex flex-col items-center p-4 mt-0 sm:mt-2 mb-20 overflow-x-hidden'>
+      <div id="home" className='flex justify-between scroll-mt-96 sm:flex sm:flex-col mb-20  mt-20 sm:mt-0 items-center w-full max-w-screen-sm'>
         <div className='mt-12 m-10'>
-          <div className='p-5 text-center'>
+          <div className='p-5 text-center mt-9'>
             <h1 className='text-7xl sm:text-3xl font-extrabold sm:mt-10'>
-              <span className='inline-block border-r-2  border-customBlue animate-blink'>
+              <span className='text-custom2 inline-block border-r-2  border-customBlue animate-blink'>
                 {displayedText}
               </span>
             </h1>
@@ -47,7 +47,7 @@ const Header = () => {
             </button>
             <button 
               className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
-              <a href="https://drive.google.com/file/d/1f3tZ0Bm10NSLgIa1-D0d7e6e7kbD2K-z/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
+              <a href="https://drive.google.com/file/d/17VtxMhsRlvSBYGBjSgq7wDPtM7OaL29v/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
             </button>
           </div>
         </div>
