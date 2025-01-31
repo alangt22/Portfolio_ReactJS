@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import alan from '/assets/header/alan.jpg';
+import { Helmet } from 'react-helmet';
 
 const Header = () => {
   const [displayedText, setDisplayedText] = useState('');
@@ -30,6 +31,16 @@ const Header = () => {
 
   return (
     <section className='relative flex flex-col items-center p-4 mt-0 sm:mt-2 mb-20 overflow-x-hidden'>
+      <div id="meta">
+      <Helmet>
+        <meta name="description" content="Portfólio de Alan Nunes, um desenvolvedor web com foco em full-stack. Confira meus projetos e habilidades." />
+        <meta name="keywords" content="desenvolvedor web, front-end, back-end, full-stack, React, JavaScript, portfólio, design" />
+        <meta property="og:title" content="Portfólio de Alannunes | Desenvolvedor Web" />
+        <meta property="og:description" content="Portfólio de Alannunes, um desenvolvedor web com foco em front-end e design. Confira meus projetos e habilidades." />
+        <meta property="og:image" content="URL_da_imagem_de_compartilhamento.jpg" /> 
+        <meta property="og:url" content="https://i.imgur.com/h6G25zp.png" /> 
+      </Helmet>
+    </div>
       <div id="home" className='flex justify-between scroll-mt-96 sm:flex sm:flex-col mb-20  mt-20 sm:mt-0 items-center w-full max-w-screen-sm'>
         <div className='mt-12 m-10'>
           <div className='p-5 text-center mt-9'>
