@@ -46,6 +46,7 @@ const Projects = () => {
           <img
             src={projeto.imageSrc}
             alt={projeto.title}
+            loading='lazy'
             className="w-full h-48 object-cover transition-transform duration-500 hover:scale-105"
           />
           <div className="p-4">

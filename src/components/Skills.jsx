@@ -49,9 +49,14 @@ const Skills = ({ triggerAnimation }) => {
               <div
                 key={index}
                 className='skill-item flex flex-col items-center opacity-0 transform translate-y-4 transition-all duration-500 ease-in-out'
-                style={{ transitionDelay: `${index * 300}ms` }} // Ajustar o atraso conforme necessário
+                style={{ transitionDelay: `${index * 300}ms` }} 
               >
-                <img className='w-28 h-28 sm:w-16 object-contain mb-0 transition-opacity duration-500 ease-in-out opacity-45 hover:opacity-100' src={skill.imageSrc} alt={skill.title} />
+                <img 
+                className='w-28 h-28 sm:w-16 object-contain mb-0 transition-opacity duration-500 ease-in-out opacity-45 hover:opacity-100' 
+                src={skill.imageSrc} 
+                alt={skill.title}
+                loading='lazy' 
+                />
                 <p className='font-bold text-center text-custom3 mt-0'>{skill.title}</p>
               </div>
             ))}

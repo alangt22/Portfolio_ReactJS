@@ -40,21 +40,36 @@ const Header = () => {
             </h1>
             <p className='text-2xl sm:text-base p-2 sm:mb-0 text-custom3'>Desenvolvedor Full-Stack</p>
           </div>
-          <div className='flex ml-44 sm:ml-0 sm:flex-col sm:p-28 gap-4  sm:gap-6 p-5'>
-            <button 
-              className={`bg-custom5 text-custom4 w-56 sm:w-40  h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
-              <a href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="text-custom4">Whatsapp</a>
-            </button>
-            <button 
-              className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
-              <a href="https://drive.google.com/file/d/17VtxMhsRlvSBYGBjSgq7wDPtM7OaL29v/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-custom4">Currículo PDF</a>
-            </button>
-          </div>
+          <div className='flex ml-44 sm:ml-0 sm:flex-col sm:p-28 gap-4 sm:gap-6 p-5'>
+          <button 
+            className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
+            <a 
+              href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-custom4 w-full h-full flex items-center justify-center">
+              Whatsapp
+            </a>
+          </button>
+  
+          <button 
+            className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
+            <a 
+              href="https://drive.google.com/file/d/17VtxMhsRlvSBYGBjSgq7wDPtM7OaL29v/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-custom4 w-full h-full flex items-center justify-center">
+              Currículo PDF
+            </a>
+          </button>
+        </div>
+
         </div>
         <div className=''>
           <img 
             src={alan} 
-            alt="Header"
+            alt="Foto de Alan Nunes"
+            loading='lazy'
             className={`w-72 h-72 sm:h-52 object-cover object-top mr-44 sm:mr-8 sm:w-52 m-10 sm:mb-20 sm:mt-0 rounded-full mt-12 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} transition-all duration-1000 animated-border`}
           />
               <div className='flex text-center justify-center mr-32 sm:mr-0 gap-5 mt-2 text-custom7'>
