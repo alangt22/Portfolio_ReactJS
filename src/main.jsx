@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
   <>
     <Navbar/>
     <MyComponent/>
-    <Header/>
+    <Header component={MyComponent}/>
     <Sobre/>
     <Skills/>
     <Projects/>
