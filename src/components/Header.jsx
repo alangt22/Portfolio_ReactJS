@@ -37,7 +37,7 @@ const Header = () => {
         <meta name="keywords" content="desenvolvedor web, front-end, back-end, full-stack, React, JavaScript, portfólio, design" />
         <meta property="og:title" content="Portfólio de Alannunes | Desenvolvedor Web" />
         <meta property="og:description" content="Portfólio de Alannunes, um desenvolvedor web com foco em front-end e design. Confira meus projetos e habilidades." />
-        <meta property="og:image" content="https://i.imgur.com/ebIJfkd.png" />
+        <meta property="og:image" content="https://i.imgur.com/RV9S1AX.png" />
         <meta property="og:url" content="https://alannunes-dev.netlify.app/" /> 
       </Helmet>
     </div>
