@@ -195,5 +195,8 @@ body::before {
   #fundo::before{
     display: none;
   }
+  #meta{
+    display: none;
+  }
 
 }

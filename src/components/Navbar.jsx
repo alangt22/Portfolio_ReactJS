@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { HiMenuAlt3, HiX } from 'react-icons/hi'; // Importa ícones de menu e fechar
+import { HiMenuAlt3, HiX } from 'react-icons/hi'; 
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,51 +28,114 @@ const Navbar = () => {
         ALAN NUNES
       </h1>
       <div className='hidden sm:flex items-center'>
-        <button onClick={toggleMenu} className='text-5xl text-custom7'>
-          {isMenuOpen ? <HiX /> : <HiMenuAlt3 />}
-        </button>
+      <button 
+      onClick={toggleMenu} 
+      className="text-5xl text-custom7" 
+      aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"} 
+      aria-expanded={isMenuOpen ? "true" : "false"} 
+      title={isMenuOpen ? "Fechar menu" : "Abrir menu"} 
+    >
+      {isMenuOpen ? <HiX /> : <HiMenuAlt3 />}
+    </button>
       </div>
-      <ul className={`flex sm:hidden space-x-4 text-lg text-custom2 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'} transition-all duration-500`}>
-        <li className='transition-transform transform hover:scale-105'>
-          <a href="#home" className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Home</a>
+      <ul 
+        className={`flex sm:hidden space-x-4 text-lg text-custom2 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'} transition-all duration-500`}
+        role="navigation" 
+        aria-label="Menu de navegação" 
+      >
+        <li className="transition-transform transform hover:scale-105">
+          <a href="#home" className="hover:text-customHighlight transition-colors px-3 py-1 rounded" aria-label="Ir para a seção Home">Home</a>
         </li>
-        <li className='transition-transform transform hover:scale-105'>
-          <a href="#sobre" className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Sobre</a>
+        <li className="transition-transform transform hover:scale-105">
+          <a href="#sobre" className="hover:text-customHighlight transition-colors px-3 py-1 rounded" aria-label="Ir para a seção Sobre">Sobre</a>
         </li>
-        <li className='transition-transform transform hover:scale-105'>
-          <a href="#skills" className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Skills</a>
+        <li className="transition-transform transform hover:scale-105">
+          <a href="#skills" className="hover:text-customHighlight transition-colors px-3 py-1 rounded" aria-label="Ir para a seção Skills">Skills</a>
         </li>
-        <li className='transition-transform transform hover:scale-105'>
-          <a href="#projects" className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Projetos</a>
+        <li className="transition-transform transform hover:scale-105">
+          <a href="#projects" className="hover:text-customHighlight transition-colors px-3 py-1 rounded" aria-label="Ir para a seção Projetos">Projetos</a>
         </li>
-        <li className='transition-transform transform hover:scale-105'>
-          <a href="#contatos" className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Contato</a>
+        <li className="transition-transform transform hover:scale-105">
+          <a href="#contatos" className="hover:text-customHighlight transition-colors px-3 py-1 rounded" aria-label="Ir para a seção Contato">Contato</a>
         </li>
       </ul>
 
+
       <div className={`fixed inset-0 bg-custom-gradient opacity-85 z-20 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} sm:w-full`}>
         <div className='flex justify-end p-2 sm:mr-3'>
-          <button onClick={toggleMenu} className='text-5xl  text-custom7'>
+          <button 
+          onClick={toggleMenu} 
+          className='text-5xl  text-custom7'
+          aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"} 
+          aria-expanded={isMenuOpen ? "true" : "false"} 
+          title={isMenuOpen ? "Fechar menu" : "Abrir menu"} 
+          >
             <HiX />
           </button>
         </div>
         <ul className='flex flex-col items-center space-y-8 font-extrabold text-4xl text-custom3 hover:text-custom7 mt-16'>
           <li className='transition-transform transform hover:scale-105'>
-            <a href="#home" onClick={(e) => handleLinkClick(e, 'home')} className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Home</a>
+            <a 
+              href="#home" 
+              onClick={(e) => handleLinkClick(e, 'home')}
+              className='hover:text-customHighlight transition-colors px-3 py-1 rounded'
+              aria-label="Ir para a seção Home"
+              role="link"
+              tabIndex="0"
+            >
+              Home
+            </a>
           </li>
           <li className='transition-transform transform hover:scale-105'>
-            <a href="#sobre" onClick={(e) => handleLinkClick(e, 'sobre')} className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Sobre</a>
+            <a 
+              href="#sobre" 
+              onClick={(e) => handleLinkClick(e, 'sobre')}
+              className='hover:text-customHighlight transition-colors px-3 py-1 rounded'
+              aria-label="Ir para a seção Sobre"
+              role="link"
+              tabIndex="0"
+            >
+              Sobre
+            </a>
           </li>
           <li className='transition-transform transform hover:scale-105'>
-            <a href="#skills" onClick={(e) => handleLinkClick(e, 'skills')} className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Skills</a>
+            <a 
+              href="#skills" 
+              onClick={(e) => handleLinkClick(e, 'skills')}
+              className='hover:text-customHighlight transition-colors px-3 py-1 rounded'
+              aria-label="Ir para a seção Skills"
+              role="link"
+              tabIndex="0"
+            >
+              Skills
+            </a>
           </li>
           <li className='transition-transform transform hover:scale-105'>
-            <a href="#projects" onClick={(e) => handleLinkClick(e, 'projects')} className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Projetos</a>
+            <a 
+              href="#projects" 
+              onClick={(e) => handleLinkClick(e, 'projects')}
+              className='hover:text-customHighlight transition-colors px-3 py-1 rounded'
+              aria-label="Ir para a seção Projetos"
+              role="link"
+              tabIndex="0"
+            >
+              Projetos
+            </a>
           </li>
           <li className='transition-transform transform hover:scale-105'>
-            <a href="#contatos" onClick={(e) => handleLinkClick(e, 'contatos')} className='hover:text-customHighlight transition-colors px-3 py-1 rounded'>Contato</a>
+            <a 
+              href="#contatos" 
+              onClick={(e) => handleLinkClick(e, 'contatos')}
+              className='hover:text-customHighlight transition-colors px-3 py-1 rounded'
+              aria-label="Ir para a seção Contato"
+              role="link"
+              tabIndex="0"
+            >
+              Contato
+            </a>
           </li>
         </ul>
+
       </div>
     </nav>
   );

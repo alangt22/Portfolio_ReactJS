@@ -15,7 +15,7 @@ import './index.css'
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     <Navbar/>
     <MyComponent/>
     <Header/>
@@ -23,5 +23,5 @@ createRoot(document.getElementById('root')).render(
     <Skills/>
     <Projects/>
     <Contatos/>
-  </StrictMode>,
+  </>
 )
