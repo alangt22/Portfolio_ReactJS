@@ -41,17 +41,18 @@ const Header = () => {
         <meta property="og:url" content="https://alannunes-dev.netlify.app/" /> 
       </Helmet>
     </div>
-      <div id="home" className='flex justify-between scroll-mt-96 sm:flex sm:flex-col mb-20  mt-20 sm:mt-0 items-center w-full max-w-screen-sm'>
+      <div id="home" className='flex justify-between xm:flex-col xm:p-10 scroll-mt-96 sm:flex sm:flex-col mb-20  mt-20 sm:mt-0 items-center w-full max-w-screen-sm'>
         <div className='mt-12 m-10'>
           <div className='p-5 text-center mt-9'>
-            <h1 className='text-7xl sm:text-3xl font-extrabold sm:mt-10'>
+            <h1 className='text-7xl lm:text-3xl  font-extrabold sm:mt-10'>
               <span className='text-custom2 inline-block border-r-2  border-customBlue animate-blink'>
                 {displayedText}
               </span>
             </h1>
             <p className='text-2xl sm:text-base p-2 sm:mb-0 text-custom3'>Desenvolvedor Full-Stack</p>
           </div>
-          <div className='flex ml-44 sm:ml-0 sm:flex-col sm:p-28 gap-4 sm:gap-6 p-5'>
+
+          <div className='flex ml-44 sm:flex-col sm:p-28 gap-4 sm:gap-6 p-5 gm:flex-col lm:mr-44'>
           <button 
             className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
             <a 
@@ -81,9 +82,9 @@ const Header = () => {
             src={alan} 
             alt="Foto de Alan Nunes"
             loading='lazy'
-            className={`w-72 h-72 sm:h-52 object-cover object-top mr-44 sm:mr-8 sm:w-52 m-10 sm:mb-20 sm:mt-0 rounded-full mt-12 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} transition-all duration-1000 animated-border`}
+            className={`w-72 h-72 sm:h-52 object-cover object-top mr-44 xm:mr-10 sm:mr-8 sm:w-52 m-10 sm:mb-20 sm:mt-0 rounded-full mt-12 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} transition-all duration-1000 animated-border`}
           />
-              <div className='flex text-center justify-center mr-32 sm:mr-0 gap-5 mt-2 text-custom7'>
+              <div className='flex text-center justify-center mr-32 xm:mr-0 sm:mr-0 gap-5 mt-2 text-custom7'>
                       <a className='text-4xl icon-hover' href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faWhatsapp} />
                       </a>
@@ -94,7 +95,7 @@ const Header = () => {
                           <FontAwesomeIcon icon={faGithub} />
                       </a>
               </div>
-              <span className='flex text-center  mr-32 sm:mr-2 justify-center font-bold text-custom2 mt-2'>
+              <span className='flex text-center  mr-32 xm:mr-0 sm:mr-2 justify-center font-bold text-custom2 mt-2'>
                       <a href="#contatos" className='hover:text-custom7'>alansilva2896@gmail.com</a>
               </span>
           

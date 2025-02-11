@@ -6,6 +6,10 @@ module.exports = {
     screens: {
 
       'sm': {'max': '450px'},
+      'xm': {'max': '1290px'},
+      'gm': {'max': '1000px'},
+      'lm': {'max': '788px'}
+
       
     },
     extend: {

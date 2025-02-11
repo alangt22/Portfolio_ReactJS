@@ -27,7 +27,7 @@ const Navbar = () => {
       <h1 className={`text-3xl sm:text-2xl text-custom7 font-bold ${isVisible ? 'opacity-100 translate-x-7' : 'opacity-0 translate-x-0'} transition-all duration-500`}>
         ALAN NUNES
       </h1>
-      <div className='hidden sm:flex items-center'>
+      <div className='hidden lm:flex items-center'>
       <button 
       onClick={toggleMenu} 
       className="text-5xl text-custom7" 
@@ -39,7 +39,7 @@ const Navbar = () => {
     </button>
       </div>
       <ul 
-        className={`flex sm:hidden space-x-4 text-lg text-custom2 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'} transition-all duration-500`}
+        className={`flex lm:hidden space-x-4 text-lg text-custom2 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'} transition-all duration-500`}
         role="navigation" 
         aria-label="Menu de navegação" 
       >
