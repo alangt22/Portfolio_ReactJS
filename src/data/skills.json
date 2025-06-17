@@ -1,35 +1,36 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "../assets/skills/html.png"
+      "imageSrc": "../assets/skills/HTML5.svg"
     },
     {
       "title": "CSS",
-      "imageSrc": "../assets/skills/css.png"
+      "imageSrc": "../assets/skills/CSS3.svg"
+    },
+        {
+      "title": "JavaScript",
+      "imageSrc": "../assets/skills/JavaScript.svg"
+    },
+    {
+      "title": "Next",
+      "imageSrc": "../assets/skills/Next.js.svg"
     },
     {
       "title": "React",
-      "imageSrc": "../assets/skills/react.png"
+      "imageSrc": "../assets/skills/React.svg"
     },
     {
       "title": "Node",
       "imageSrc": "../assets/skills/node.png"
     },
-    {
-      "title": "Python",
-      "imageSrc": "../assets/skills/Python.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "../assets/skills/Js.png"
-    },
+
     {
       "title": "Tailwind",
-      "imageSrc": "../assets/skills/tailwind.png"
+      "imageSrc": "../assets/skills/Tailwind CSS.svg"
     },
     {
       "title": "TypeScript",
-      "imageSrc": "../assets/skills/ts.png"
+      "imageSrc": "../assets/skills/TypeScript.svg"
     },
     {
       "title": "Sass",
@@ -40,8 +41,12 @@
       "imageSrc": "../assets/skills/mongodb.svg"
     },
     {
-      "title": "MySQL",
-      "imageSrc": "../assets/skills/mysql.png"
+      "title": "Firebase",
+      "imageSrc": "../assets/skills/Firebase.svg"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "../assets/skills/PostgresSQL.svg"
     },
     {
       "title": "Git",

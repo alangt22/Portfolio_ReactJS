@@ -1,83 +1,83 @@
 [
   {
+    "title": "ALNMotors",
+    "imageSrc": "../assets/projects/alnmotors.png",
+    "description": "ALNMotors é uma plataforma de e-commerce para compra e venda de carros, desenvolvida com React, TypeScript e firebase. O projeto oferece uma interface moderna e funcional, permitindo que usuários anunciem veículos, busquem por modelos específicos e entrem em contato direto com vendedores.",
+    "skills": ["React", "TypeScript", "Tailwind", "Firebase"],
+    "demo": "https://web-carros-seven.vercel.app/",
+    "source": "https://github.com/alangt22/WebCarros"
+  },
+  {
+    "title": "AgendaPRO",
+    "imageSrc": "../assets/projects/AgendaPRO.png",
+    "description": "O AgendaPro é uma plataforma SaaS que facilita a gestão de agendamentos para profissionais de diversas áreas, como salões de beleza, estúdios, consultórios, freelas e pequenas empresas.",
+    "skills": ["React", "Next", "TypeScript", "Tailwind", "PostgreSQL"],
+    "demo": "https://www.agendapro.dev/",
+    "source": "https://github.com/alangt22/Agenda-Pro"
+  },
+  {
     "title": "GET A PET",
     "imageSrc": "../assets/projects/get a pet.png",
-    "description": "Sistema para adoção de Pets",
-    "skills": ["React","Node", "JavaScript","mongoDB"],
+    "description": "Get a Pet é uma plataforma web desenvolvida para facilitar a conexão entre pessoas interessadas em adotar animais e responsáveis por pets disponíveis. O projeto oferece uma interface simples, intuitiva e totalmente responsiva, garantindo uma ótima experiência em qualquer dispositivo.",
+    "skills": ["React", "Node", "JavaScript", "mongoDB"],
     "demo": "https://get-a-pet-aln.netlify.app/",
     "source": "https://github.com/alangt22/Get_a_Pet---FrontEnd"
   },
+
   {
-    "title": "PARTY TIME",
-    "imageSrc": "../assets/projects/party.png",
-    "description": "Projeto Full-stack para organização de festas",
-    "skills": ["React","JavaScript","Node","mongoDB"],
-    "demo": "https://partytime-curso.netlify.app/",
-    "source": "https://github.com/alangt22/PARTY_TIME-FRONTEND"
+    "title": "ApoiaDev",
+    "imageSrc": "../assets/projects/apoia4.png",
+    "description": "ApoiaDEV é uma plataforma pensada para criadores de conteúdo que desejam receber apoio financeiro de forma simples e personalizada. Com uma interface moderna e intuitiva, o projeto permite que cada criador crie sua própria página de doações com identidade visual única.",
+    "skills": ["React", "Next", "TypeScript", "Tailwind", "PostgreSQL"],
+    "demo": "https://apoia-dev-brown.vercel.app/",
+    "source": "https://github.com/alangt22/apoia-dev"
   },
   {
-    "title": "MEMORIES",
-    "imageSrc": "../assets/projects/memorias.png",
-    "description": "Projeto Full-stack para gerenciar memorias",
-    "skills": ["React","JavaScript","Node","mongoDB"],
-    "demo": "https://memories-curso.netlify.app/",
-    "source": "https://github.com/alangt22/MEMORIES_FRONTEND"
+    "title": "Carrinho de Compras",
+    "imageSrc": "../assets/projects/carrinho.png",
+    "description": "Um carrinho de compras moderno para petshop, feito com React, TypeScript, Tailwind CSS, React Router DOM, Toast e ShadCN UIO projeto simula a experiência de navegação e compra de produtos voltados para pets, com foco em performance, acessibilidade e uma boa experiência de usuário.",
+    "skills": ["React", "Tailwind", "TypeScript"],
+    "demo": "https://petshop-dev-psi.vercel.app/",
+    "source": "https://github.com/alangt22/petshopDEV"
+  },
+  {
+    "title": "DevLink",
+    "imageSrc": "../assets/projects/devlink.png",
+    "description": "O Linketree é um projeto inspirado no Linktree, que permite centralizar múltiplos links em uma única página personalizada. Ideal para perfis de redes sociais, portfólios, marcas pessoais e pequenas empresas.",
+    "skills": ["React", "Tailwind", "TypeScript", "Firebase"],
+    "demo": "https://linketree-three.vercel.app/",
+    "source": "https://github.com/alangt22/Linketree"
   },
   {
     "title": "QUIZ PROGRAMAÇÃO",
     "imageSrc": "../assets/projects/quiz.png",
-    "description": "Um Quiz De programação",
-    "skills": ["React","JavaScript","CSS"],
+    "description": "Aplicação interativa de quiz com perguntas de programação. Teste seus conhecimentos em tempo real com feedback instantâneo.",
+    "skills": ["React", "JavaScript", "CSS"],
     "demo": "https://quiz-curso.netlify.app/",
     "source": "https://github.com/alangt22/quiz_react-Curso"
   },
   {
     "title": "DEV BURGER",
     "imageSrc": "../assets/projects/dev bg.png",
-    "description": "Cardapio Web Hamburgueria",
-    "skills": ["HTML","JavaScript","Tailwind"],
+    "description": "Cardápio digital para hamburgueria com design responsivo. Interface simples e moderna para facilitar a visualização dos produtos.",
+    "skills": ["HTML", "JavaScript", "Tailwind"],
     "demo": "https://alnburguer-2.netlify.app/",
     "source": "https://github.com/alangt22/cardapio-2"
   },
   {
-    "title": "FINANÇAS",
-    "imageSrc": "../assets/projects/financeiro.png",
-    "description": "App Web para controle financeiro",
-    "skills": ["React","JavaScript"],
-    "demo": "https://alnfinances.netlify.app",
-    "source": "https://github.com/alangt22/Todo-Curso"
-  },  
-  {
-    "title": "TODO LIST AVANÇADO",
-    "imageSrc": "../assets/projects/Todo.png",
-    "description": "Todo List Avançado com JS",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://todoavn-curso.netlify.app/",
-    "source": "https://github.com/alangt22/financeiro"
-  },  
+    "title": "PetDev",
+    "imageSrc": "../assets/projects/petdev.png",
+    "description": "Landing page moderna para desenvolvedores pet lovers, com links de contato integrados e design responsivo.",
+    "skills": ["Next", "TypeScript", "Tailwind"],
+    "demo": "https://pet-dev.netlify.app/",
+    "source": "https://github.com/alangt22/PetDev"
+  },
   {
     "title": "BARBER DEV",
     "imageSrc": "../assets/projects/barber.JPG",
-    "description": "Landing Page Com links de contatos",
-    "skills": ["HTML","Sass","JavaScript"],
+    "description": "Landing page elegante para barbearia, com links de contato, layout responsivo e estilo moderno utilizando Sass.",
+    "skills": ["HTML", "Sass", "JavaScript"],
     "demo": "https://barbeariadev.netlify.app/",
     "source": "https://github.com/alangt22/Barbearia"
-  },
-  {
-    "title": "BUSCADOR DE CEP",
-    "imageSrc": "../assets/projects/cep.png",
-    "description": "Buscador de CEP Consumindo API",
-    "skills": ["HTML","CSS","JavaScript"],
-    "demo": "https://buscador-cep-aln.netlify.app/",
-    "source": "https://github.com/alangt22/BUSCADOR_CEP_JS"
-  },
-  {
-    "title": "CALCULO DE IMC",
-    "imageSrc": "../assets/projects/IMC.png",
-    "description": "Calculadora de IMC",
-    "skills": ["React","CSS","JavaScript"],
-    "demo": "https://calc-imc-react-curso.netlify.app/",
-    "source": "https://github.com/alangt22/Calc_imc_REACT"
   }
 ]
-
