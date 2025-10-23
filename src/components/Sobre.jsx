@@ -13,18 +13,14 @@ const Sobre = () => {
           </h2>
           <div className="bg-custom1 sm:w-[300px] rounded-xl mb-6 opacity-55 hover:opacity-100 transition-opacity duration-300">
             <h3 className="text-2xl sm:text-xl text-center font-bold p-4 text-custom3">
-              Desenvolvedor Full-Stack
+              Desenvolvedor Front-End
             </h3>
             <p className="text-lg sm:text-lg p-4 text-center text-custom3">
-              Desenvolvedor Full-Stack com mais de 1 ano de experiência prática
-              em projetos pessoais. Trabalho com front-end utilizando React,
-              Next.js, TypeScript, JavaScript, HTML, CSS e Tailwind CSS, e no
-              back-end com Node.js, Express, MongoDB, MySQL e Firebase. Tenho
-              como foco a criação de aplicações completas, escaláveis e com
-              interfaces modernas e responsivas. Também tenho experiência com
-              Git, GitHub, consumo de APIs REST e deploy de aplicações. Estou em
-              constante aprendizado e em busca da minha primeira oportunidade
-              profissional na área de desenvolvimento.
+           Sou um desenvolvedor Frontend em início de carreira, com uma base sólida em HTML, CSS, JavaScript e ReactJS. Tenho paixão por criar interfaces acessíveis, responsivas e otimizadas em performance, sempre buscando oferecer a melhor experiência para o usuário.
+
+Nos últimos tempos, venho me aprofundando em ferramentas modernas como Next.js, TailwindCSS e TypeScript, além de estudar testes automatizados (E2E) para garantir a qualidade do código. Também possuo noções de Backend, trabalhando com Node.js, NestJS, Express, MongoDB, PostgreSQL e Firebase.
+
+Minha trajetória tem sido construída por meio de projetos pessoais e cursos intensivos, onde aplico os conceitos aprendidos na prática e desenvolvo soluções completas. Estou em busca de oportunidades que me permitam aplicar e expandir meus conhecimentos em ambientes colaborativos que valorizem o aprendizado contínuo e a inovação.
             </p>
           </div>
           <div className="bg-custom1 sm:w-[300px] rounded-xl mb-6 opacity-55 hover:opacity-100 transition-opacity duration-300">

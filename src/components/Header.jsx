@@ -56,7 +56,7 @@ const Header = () => {
           <button 
             className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
             <a 
-              href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" 
+              href="https://api.whatsapp.com/send/?phone=5511991219689&text&type=phone_number&app_absent=0" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-custom4 w-full h-full flex items-center justify-center">
@@ -67,7 +67,7 @@ const Header = () => {
           <button 
             className={`bg-custom5 text-custom4 w-56 sm:w-40 h-10 rounded-full flex items-center justify-center text-xl hover:bg-custom7 transition-transform transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} transition-all duration-500`}>
             <a 
-              href="https://drive.google.com/file/d/1C-nUPEx5deu_MfjuZ-0huum7f35m0u6t/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1IzD3e2_9Z77VEU9v9_d2Da2auPjQVs_4/view?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-custom4 w-full h-full flex items-center justify-center">
@@ -85,7 +85,7 @@ const Header = () => {
             className={`w-72 h-72 sm:h-52 object-cover object-top mr-44 xm:mr-10 sm:mr-8 sm:w-52 m-10 sm:mb-20 sm:mt-0 rounded-full mt-12 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'} transition-all duration-1000 animated-border`}
           />
               <div className='flex text-center justify-center mr-32 xm:mr-0 sm:mr-0 gap-5 mt-2 text-custom7'>
-                      <a className='text-4xl icon-hover' href="https://api.whatsapp.com/send/?phone=5511940094503&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                      <a className='text-4xl icon-hover' href="https://api.whatsapp.com/send/?phone=5511991219689&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faWhatsapp} />
                       </a>
                       <a className='text-4xl icon-hover' href="http://www.linkedin.com/in/alannunes22" target="_blank" rel="noopener noreferrer">
