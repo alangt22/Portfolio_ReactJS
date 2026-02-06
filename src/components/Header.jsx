@@ -49,7 +49,7 @@ const Header = () => {
                 {displayedText}
               </span>
             </h1>
-            <p className='text-2xl sm:text-base p-2 sm:mb-0 text-custom3'>Desenvolvedor Front-End</p>
+            <p className='text-2xl sm:text-base p-2 sm:mb-0 text-custom3'>Desenvolvedor Full-Stack</p>
           </div>
 
           <div className='flex ml-44 sm:flex-col sm:p-28 gap-4 sm:gap-6 p-5 gm:flex-col lm:mr-44'>
